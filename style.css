@@ -5,7 +5,7 @@ html, body{
 }
 
 body > div{
-    height: 100%;
+    height: 90%;
 }
 
 p{
@@ -16,6 +16,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
 
 
 /* top bar */
@@ -53,9 +54,13 @@ a{
 #index > div > a{
     font-size: 2vw;
 }
+
+
+
+
 /* First Div */
 #firstDiv{
-    
+    height: 100%;
     background-color: #4D4C7D;
     display: flex;
     align-items:center;
@@ -75,14 +80,85 @@ img{
     font-size: 3vw;
 }
 
+
+
+
+/* Skills Div */
 #skillsDiv{
-    background-color: #CE1212;
-    
+    background-color: #4D4C7D;
+    padding-top: 2%;
 }
+
+#mainSkillsDiv{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+ 
+#mainSkillsDiv > div{
+    width: 20%;
+    padding: 2%;
+    border: 3px solid black ;
+    border-radius: 8%;
+    margin: 2px;
+    background-color: #FF7676;
+}
+
+.skillName{
+    text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#mainSkillsDiv > div > img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+}
+
+.skillDescription{
+    text-align: center;
+    font-size: 1vw;
+}
+
+#skillsDiv > p{
+    text-align: center;
+    color: #FFCD4B;
+    font-size: 2vw;
+}
+
+#anotherSkillsDiv{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+#anotherSkillsDiv > div{
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 0.3vw;
+    margin: 0.1vw;
+    color: #FFCD4B;
+    background-color: black;
+}
+
+
+
+
+/* Project Div */
 #projectsDiv{
-    background-color: blue;
-    
+    background-color: #4D4C7D;
 }
+
+
+
+
+
+
+
 #educationDiv{
     background-color: red;
     
@@ -97,7 +173,5 @@ img{
 } 
 
 @media (max-width: 800px) {
-    body > div{
-        width: 10%;
-    }
+
 }
