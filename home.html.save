@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="topBar">
+        <div style="margin-left: 10%;"><a id="nameTitle" href="#firstDiv">Diogo Ribeiro</a></div>
+        <div id="index">
+            <div><a href="#skillsDiv">Skills</a></div>
+            <div><a href="#projectsDiv">Projects</a></div>
+            <div><a href="#infoDiv">Info</a></div>
+            <div><a href="#contactDiv">Contact</a></div>
+        </div>
+        </div>
+    </div>
+    <div id="firstDiv">
+        <div style="padding-right: 0%;">
+            <p style="color: #FFCD4B;" class="title"> Junior Game Developer /</p> 
+            <p style="color: #FF7676;" class="title"> Software Developer</p></div>
+        <div style="padding-left: 0%;"><img src="/Photo.png" alt="IMG"></div>
+    </div>
+    <div id="skillsDiv">
+        fsdf
+    </div>
+    <div id="projectsDiv">
+        dasfgas
+    </div>
+    <div id="educationDiv">
+        fsdf
+    </div>
+    <div id="infoDiv">
+        sgsdg
+    </div>
+    <div id="contactDiv">
+        ghfdhd
+    </div>
+</body>
+</html>
