@@ -2,14 +2,19 @@ html, body{
     margin:0;   
     height: 100%;
     width: 100%;
+    background-color: #4D4C7D;
 }
 
 body > div{
     height: 90%;
 }
 
-p{
-    margin: 0%;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 a{
@@ -87,6 +92,8 @@ img{
 #skillsDiv{
     background-color: #4D4C7D;
     padding-top: 2%;
+    height: auto;
+    padding-bottom: 10%;
 }
 
 #mainSkillsDiv{
@@ -151,8 +158,108 @@ img{
 /* Project Div */
 #projectsDiv{
     background-color: #4D4C7D;
+    height: auto;
+}
+#projectsDiv > p {
+    text-align: center;
+    color: rgb(255, 205, 75);
+    font-size: 2vw;
 }
 
+iframe{
+    height: auto;
+}
+
+#fallsEnd {
+    height: 22vw;
+    margin-top: 2%;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 1%;
+}
+#fallsEnd p {
+    height: auto;
+    font-weight: 600;
+    color: rgb(238, 235, 221);
+    text-align: center;
+    font-size: 1vw;
+    margin: 5%;
+}
+#fallsEndDescription {
+    width: 40%;
+}
+
+#afterLight {
+    height: 22vw;
+    margin-top: 2%;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 1%;
+}
+#afterLightDescription {
+    width: 40%;
+}
+
+
+.smallProjects {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(54, 48, 98);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1.3rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 20%;
+}
+
+#othersProjectsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+
+.othersProjectsDescription{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.8);
+    border-radius: 20%;
+}
+
+.othersProjectsDescription > p {
+    color: rgb(255, 205, 75);
+    text-align: center;
+    font-weight: 800;
+    margin-top: 35%;
+    font-size: 150%;
+}
+.othersProjectsTags {
+    justify-content: space-evenly;
+    color: rgb(255, 205, 75);
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    flex-wrap: wrap;
+    margin: auto 10% 20%;
+}
 
 
 
