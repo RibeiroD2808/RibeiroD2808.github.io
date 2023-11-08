@@ -30,11 +30,13 @@ a{
     background-color: #363062;
     position: fixed;
     display: flex;  
-    height: 10vh;
+    height: auto;
     justify-content: space-between;
+    z-index: 100;
+    
 }
 #topBar > div{
-    height: 5vh;
+    height: auto;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     display: flex;
@@ -42,22 +44,25 @@ a{
 }
 
 #nameTitle{
-    font-size: 3vw;
+    font-size: 200%;
     color: aliceblue;
 }
 #index{
     margin-right:5%;
+    
     display:flex; 
-    width: 40%;
+    width: auto;
     justify-content: space-around;
 }
 #index  > div{
-    margin: 0%;    
+    height: auto;
+    margin: 5%;    
     color: aliceblue;
     align-items: center;
 }
 #index > div > a{
-    font-size: 2vw;
+    font-size: 150%;
+    
 }
 
 
@@ -65,24 +70,42 @@ a{
 
 /* First Div */
 #firstDiv{
-    height: 100%;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 15%;
     background-color: #4D4C7D;
+    height: auto;
     display: flex;
     align-items:center;
+    justify-content: space-around;   
 }
 #firstDiv > div{
-    width: 50%;
-    padding: 5%;
+    max-width: max-content;
+    width: auto;
+    height: auto;
     text-align:center;
-    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    #firstDiv{
+        flex-wrap: wrap;
+    }
+    body > div{
+        width: 100%;
+    }
+    
 }
 img{
-    height: 60%;
-    width: 60%;
     border-radius: 10%;
+    width: 50%;
+    height: 30%;
+    right: 0%;
+    
 }
 .title{
-    font-size: 3vw;
+    font-size: 300%;
+    text-wrap: nowrap;
 }
 
 
@@ -212,8 +235,20 @@ iframe{
 }
 
 
+
+
+#othersProjectsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    justify-content: space-between;
+}
+
 .smallProjects {
-    width: 30%;
+    width: 25%;
     aspect-ratio: 1 / 1;
     background-color: rgb(54, 48, 98);
     display: flex;
@@ -227,13 +262,8 @@ iframe{
     border-radius: 20%;
 }
 
-#othersProjectsDiv {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20%;
+.smallProjects img{
+    border-radius: 20%;
 }
 
 .othersProjectsDescription{
@@ -242,6 +272,8 @@ iframe{
     height: 100%;
     background-color: rgba(128, 128, 128, 0.8);
     border-radius: 20%;
+    display: flex;
+    flex-direction: column;
 }
 
 .othersProjectsDescription > p {
