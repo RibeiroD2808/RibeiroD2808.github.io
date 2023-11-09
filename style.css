@@ -45,7 +45,7 @@ a{
 
 #nameTitle{
     font-size: 200%;
-    color: aliceblue;
+    color: #F5F5F5;
 }
 #index{
     margin-right:5%;
@@ -57,7 +57,7 @@ a{
 #index  > div{
     height: auto;
     margin: 5%;    
-    color: aliceblue;
+    color: #F5F5F5;
     align-items: center;
 }
 #index > div > a{
@@ -231,7 +231,16 @@ iframe{
     border-radius: 1%;
 }
 #afterLightDescription {
-    width: 40%;
+    width: 60%;
+}
+
+#afterLight p {
+    height: auto;
+    font-weight: 600;
+    color: rgb(238, 235, 221);
+    text-align: center;
+    font-size: 1vw;
+    margin: 5%;
 }
 
 
@@ -243,7 +252,7 @@ iframe{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     justify-content: space-between;
 }
 
@@ -298,19 +307,85 @@ iframe{
 
 
 
-#educationDiv{
-    background-color: red;
-    
-}
 #infoDiv{
-    background-color: blue;
-    
+    padding-top: 5%;
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: center;
+    height: auto;
 }
+
+#educationDiv{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 4px solid black;
+    border-radius: 10%;
+    background-color: #F5F5F5;
+    margin-bottom: 5%;
+}
+
+#educationP{
+    margin-left: 35%; 
+    margin-right: 35%; 
+    background-color: black; 
+    font-size: 120%; 
+    color: #FFCD4B;
+    border-radius: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#aboutMeDiv{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border: 4px solid black;
+    border-radius: 10%;
+    background-color: #F5F5F5;
+}
+
+#aboutMeP{
+    margin-left: 40%; 
+    margin-right: 40%; 
+    background-color: black; 
+    font-size: 120%; 
+    color: #FFCD4B;
+    border-radius: 10%;
+}
+
+
+
+
+
 #contactDiv{
-    background-color: red;
-    height: 100%;
+    padding-top: 10%;
+    height: auto;
+    text-align: center;
 } 
 
-@media (max-width: 800px) {
+#contactDiv p{
+    font-size: 100%;
+}
 
+#socialDiv{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+#socialDiv > a{
+    color: #363062;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+#footer{
+    background-color: #363062;
+    height: auto;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-weight: bold;
+    font-size: medium;
 }
